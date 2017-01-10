@@ -5,7 +5,6 @@ class RestaurantsController < ApplicationController
   end
 
   def new
-    @target_url = '/restaurants/new'
     @restaurant = Restaurant.new
   end
 
